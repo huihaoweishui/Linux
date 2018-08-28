@@ -1,0 +1,10 @@
+1、数据库数据类型-->java数据类型-->js数据类型 如何与 pojo各变体(BO、VO、DO等)更好合作 比如：
+     	页面想展示日期时间，而我们定义的java类型是Date类型，js如果想正确展示日期时间，必须处理Date类型转换，
+     	或者直接接收一个字符串类型的日期时间，但是这就要求数据库sql查询出来的日期格式字段必须赋给pojo字符床类型的日期时间字段，这就会导致pojo的结构
+	如果返回类型定义为map当然能够解决这种事情，但是最好不用map，因为不能很好的体现对象含义（还有？给我更多的理由）
+2、需要精通一下mybatis，包括分页插件(官方的或者开源的 如（Mybatis - 通用分页拦截器<br/>
+ * 项目地址 : http://git.oschina.net/free/Mybatis_PageHelper)、代码生成器
+3、多看看开源项目（官方的或者个人的），学习陌生知识，比如github上 webchat可以学习websocket 比如shiro:hasAnyPermissions 在thymeleaf-extras-shiro构建中已经集成好(或者在jsp中自己扩展)，
+	而官方文档中却没有，所以除了官站还需要找开源 当然还要谷歌哈哈
+4、Linux下用yum安装mysql https://blog.csdn.net/zjh_746140129/article/details/79017628
+     使用navicat连接mysql 首先使用SSH连接到Linux服务器，然后再连接本地mysql即可(教程中直接让所有人都能连接(开放)，不安全)
