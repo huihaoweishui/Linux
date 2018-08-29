@@ -8,3 +8,6 @@
 	而官方文档中却没有，所以除了官站还需要找开源 当然还要谷歌哈哈
 4、Linux下用yum安装mysql https://blog.csdn.net/zjh_746140129/article/details/79017628
      使用navicat连接mysql 首先使用SSH连接到Linux服务器，然后再连接本地mysql即可(教程中直接让所有人都能连接(开放)，不安全)
+5、RPC和Restful
+    性能：RPC是Restful的数倍 ，占用带宽（硬件一样的情况下） RPC仅为Rstful的20%， 使用：和业务方面关系 运维：不懂。穿透防火墙 RPC不行，Restful可以
+    业内对微服务的实现：确定组织边界，对内RPC 对外Restful
