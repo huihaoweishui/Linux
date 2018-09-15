@@ -11,3 +11,19 @@
 5、RPC和Restful
     性能：RPC是Restful的数倍 ，占用带宽（硬件一样的情况下） RPC仅为Rstful的20%， 使用：和业务方面关系 运维：不懂。穿透防火墙 RPC不行，Restful可以
     业内对微服务的实现：确定组织边界，对内RPC 对外Restful
+6、知道为什么有的时候将属性值为空的属性在json化的时候去除(和map的效果一样)，可能比如有的时候表字段很多，而我们实体类也对应这么多字段，有时候只想查出几个字段展示
+7、图片验证码生成，如何在生成的同时返回其他数据。https://www.cnblogs.com/ywlx/p/4544179.html 将图片转换为Base64编码成字符串，前端再处理 加上头data:image/jpg;base64,
+8、可以关闭Session的使用
+9、数据库连接池的使用、池技术及其设计思想
+10、springboot中SSH直连阿里云数据库
+11 Spring-Session (和Shiro的Session)Spring-Data
+12、熟悉maven的jar包依赖，可以减少冗余的jar依赖；同时需要了解使用jar包中的类需要哪些配置；比如spring-session-data-redis构件已经依赖了commons-pool2、spring-data-redis 
+	就不需要再添加commons-pool2和spring-data-redis的单独依赖；并且该构件需要配合RedisConnectionFactory的配置，如果没用启动会报错
+13、what why how原则
+14、框架千变万化，挑一个稳定版本细究，另外学习基础知识，内功，思考他是怎么写出来的，自己可以写一个？还是要懂spring的核心基础 它的配置原理 理念概念
+15、JSR的作用:规范se、ee等，是JCP管理的，其实就是对java的各方向的技术扩展，提供新的接口、默认实现类，比如ServletContextListener接口，
+	我们就可以面向这个接口编程，自己去实现这个接口，这样我们就可以在容器启动时，做些代码处理(这就是这个接口的作用)；更大的说像Spring框架都是遵循这些规范
+	去编写他们的基础框架的，所以不理解为什么引入spring就可以直接使用那么多现成的功能，是因为它实现了jsr相关规范（javaee api）。java版本的提升和jsr的新增其实是同步进行的啊大概。
+16、tomcat各版本与jdk及servlet各版本对应关系 与JSR息息相关https://blog.csdn.net/majiang26/article/details/80052346；为什么要熟悉HTTP协议
+	也知道了，Http协议在升级，相应的浏览器和服务器厂商就会针对升级，java也会针对升级实现，我们就可以利用这些特性，做更加棒的应用，类似Spring的框架也会相应更新。
+	关注一下Http协议、JSR有助于我们更快汲取新知识新技术
