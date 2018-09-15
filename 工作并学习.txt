@@ -26,4 +26,4 @@
 	去编写他们的基础框架的，所以不理解为什么引入spring就可以直接使用那么多现成的功能，是因为它实现了jsr相关规范（javaee api）。java版本的提升和jsr的新增其实是同步进行的啊大概。
 16、tomcat各版本与jdk及servlet各版本对应关系 与JSR息息相关https://blog.csdn.net/majiang26/article/details/80052346；为什么要熟悉HTTP协议
 	也知道了，Http协议在升级，相应的浏览器和服务器厂商就会针对升级，java也会针对升级实现，我们就可以利用这些特性，做更加棒的应用，类似Spring的框架也会相应更新。
-	关注一下Http协议、JSR有助于我们更快汲取新知识新技术
+	关注一下Http协议、JSR有助于我们更快汲取新知识新技术；如Http协议：一个请求必须对应一个连接在Http2.0中不成立，多个请求可以发送到一个连接中。请求--》流--》帧Frame(好像在WebSocket中见过 哈哈)
